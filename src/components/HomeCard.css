@@ -1,0 +1,37 @@
+.home-card {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 30px;
+}
+
+.home-card-container {
+    width: 700px;
+    height: 100%;
+    border-radius: 20px;
+    background: #242222;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-button {
+    height: 40px;
+    width: 100px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    padding: 10px 8px;
+    text-align: center;
+    transition: 0.5s ease;
+}
+
+.link-button:hover {
+    color: #242424;
+    background-color: white;
+    transition: 0.5s ease;
+}

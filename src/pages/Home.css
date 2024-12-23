@@ -1,0 +1,42 @@
+.home {
+    overflow-x: hidden;
+}
+
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: max;
+    background-image: url('/public/images/rocket-league-background.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+.card {
+    height: 350px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: all 1s ease-out;
+    position: absolute;
+}
+
+.arrow {
+    height: 100px;
+    position: absolute;
+    cursor: pointer;
+    background-color: #242222;
+    border-radius: 20%;
+    opacity: 0.9;
+    
+
+    &.left {
+        left: 100px;
+        transform: rotateY(180deg);
+    }
+
+    &.right {
+        right: 100px;
+    }
+}

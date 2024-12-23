@@ -1,0 +1,29 @@
+.base-info {
+    background-color: #0e1f32;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+
+    h1 {
+        font-size: 50px;
+        padding-bottom: 15px;
+    }
+
+    .text {
+        background-color: #242222;
+        box-shadow: 0 0 10px white;
+        width: 1000px;
+        color: white;
+        border-radius: 20px;
+        justify-content: center;
+        font-size: 20px;
+        padding: 15px 20px;
+
+        p {
+            padding: 10px;
+        }
+    }
+}

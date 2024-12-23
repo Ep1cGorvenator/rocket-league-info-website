@@ -1,0 +1,37 @@
+.card-container {
+    background-color: #0e1f32;
+    border: 1px solid black;
+    border-radius: 24px;
+    color: white;
+    padding: 30px;
+    scale: 0.9;
+    transition: 0.8s ease;
+}
+
+.card-container:hover {
+    scale: 1.02;
+    transition: 0.8s ease;
+}
+
+.title {
+    padding: 10px;
+    text-align: center;
+}
+
+.card-img {
+    height: 250px;
+    width: auto;
+    box-shadow: 0 0 5px white;
+}
+
+.description {
+    width: 500px;
+    height: 150px;
+    font-size: 18px;
+    overflow: auto;
+    border-radius: 5px;
+    padding: 0 5px;
+    font-weight: bold;
+    background-color: grey;
+    scrollbar-width: 10px;
+}

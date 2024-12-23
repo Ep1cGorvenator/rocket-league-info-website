@@ -1,0 +1,13 @@
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 18px;
+    justify-content: center;
+}
+
+.heading {
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
